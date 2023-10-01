@@ -1,9 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2023-10-01T10:11:30.580Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.0" etag="6MmrfppxD_DNetkUGutM" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-01T11:04:07.002Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="ucsawEX00wWtjToRwm6w" version="22.0.0" type="github">
   <diagram name="Page-1" id="EcChQsmICwBvokhiO5ju">
-    <mxGraphModel>
+    <mxGraphModel dx="875" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NowNfWsBmkIgOysNYBgi-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="70" width="390" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="NowNfWsBmkIgOysNYBgi-5" value="VPC&amp;nbsp;&lt;br&gt;IP Address" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NowNfWsBmkIgOysNYBgi-6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="190" y="120" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NowNfWsBmkIgOysNYBgi-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="NowNfWsBmkIgOysNYBgi-7" target="NowNfWsBmkIgOysNYBgi-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NowNfWsBmkIgOysNYBgi-7" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="380" y="120" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NowNfWsBmkIgOysNYBgi-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NowNfWsBmkIgOysNYBgi-8" target="NowNfWsBmkIgOysNYBgi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NowNfWsBmkIgOysNYBgi-8" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="290" y="280" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NowNfWsBmkIgOysNYBgi-10" value="Network Access &lt;br&gt;Control List&lt;br&gt;(NACL)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NowNfWsBmkIgOysNYBgi-12" value="Security Group" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="330" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NowNfWsBmkIgOysNYBgi-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.795;entryY=0.486;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NowNfWsBmkIgOysNYBgi-7" target="NowNfWsBmkIgOysNYBgi-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NowNfWsBmkIgOysNYBgi-21" value="Public Subnet&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NowNfWsBmkIgOysNYBgi-22" value="Subnet 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NowNfWsBmkIgOysNYBgi-23" value="Private Subnet&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="325" y="325" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NowNfWsBmkIgOysNYBgi-24" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="120" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NowNfWsBmkIgOysNYBgi-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.583;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NowNfWsBmkIgOysNYBgi-26" target="NowNfWsBmkIgOysNYBgi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NowNfWsBmkIgOysNYBgi-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.583;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NowNfWsBmkIgOysNYBgi-24" target="NowNfWsBmkIgOysNYBgi-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="133" as="sourcePoint" />
+            <mxPoint x="190" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NowNfWsBmkIgOysNYBgi-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="170" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NowNfWsBmkIgOysNYBgi-29" value="IGW" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="175" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NowNfWsBmkIgOysNYBgi-30" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="195" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NowNfWsBmkIgOysNYBgi-31" value="" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="190" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="NowNfWsBmkIgOysNYBgi-32" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="195" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NowNfWsBmkIgOysNYBgi-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NowNfWsBmkIgOysNYBgi-33" target="NowNfWsBmkIgOysNYBgi-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NowNfWsBmkIgOysNYBgi-33" value="NAT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="198" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
